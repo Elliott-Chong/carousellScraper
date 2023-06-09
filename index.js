@@ -23,7 +23,7 @@ const launchBrowser = async () => {
   await page.goto("https://www.carousell.sg/login/");
   await page.click("button:nth-child(3)");
   await page.type("input:nth-child(2)", "chongz.22@ichat.sp.edu.sg");
-  await page.type('input[type="password"]', "elle1412");
+  await page.type('input[type="password"]', "PASSWORD");
 
   await page.click("button[type='submit']");
   page.setDefaultNavigationTimeout(0);

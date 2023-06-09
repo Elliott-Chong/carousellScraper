@@ -1,0 +1,18 @@
+{
+  "name": "JSWebCrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^19.11.1",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.6"
+  }
+}
